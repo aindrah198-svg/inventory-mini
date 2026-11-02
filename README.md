@@ -2,6 +2,10 @@
 
 A local inventory portfolio demo for small businesses, built for Afrijal Indra Hendrawan with AI assistance. Indonesian interface; persistent SQLite database; no external frontend dependencies.
 
+## Preview
+
+![Inventory dashboard](docs/dashboard.png)
+
 ## Features
 - Create products with a unique SKU, unit, and minimum-stock threshold.
 - Record stock receipts and issues with references/notes.
@@ -48,3 +52,4 @@ Choose a fresh test database for each run; the suite deliberately refuses non-em
 Single-user local portfolio demo. No authentication, role-based permissions, product editing/deletion, pricing, or production deployment is included. Do not expose this PHP development server to the internet or use real confidential business data. This demo is not the private Tugas Kita or FILIO PIUM codebase.
 
 Before presenting the project, the owner should run it and be able to explain requirements, validation, transaction consistency, and the testing evidence. AI assistance does not imply unaided authorship of every line.
+
